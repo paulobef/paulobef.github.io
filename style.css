@@ -32,6 +32,7 @@ h1
 	font-family: 'Playfair Display', serif;
 	font-size: 2em;
 	color: #161616;
+	line-height: 2em;
 }
 h2{
 	font-family: 'Lato', sans-serif;
@@ -261,9 +262,23 @@ ul
 	font-size: 1em;
 }
 
-.skilllist li
+.skilllist
 {
 	line-height: 3em;
+}
+
+#booklist
+{
+	line-height: 2em;
+}
+#interestlist
+{
+	line-height: 2em;
+}
+
+#Interesth1, #Readingh1
+{
+	line-height: 0.5em;
 }
 
 section
