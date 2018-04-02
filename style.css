@@ -58,7 +58,10 @@ p
 	line-height: 1.4em;
 	color:#707070;
 }
-
+em
+{
+	font-style: italic;
+}
 
 #iddescription{
 	font-style: italic;
