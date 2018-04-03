@@ -202,17 +202,21 @@ progress[value]::-webkit-progress-value {
 }
 
 
-ul
+#idinfolist
 {
 	list-style-type: none;
 	display: inline;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	color: grey;
-	line-height: 1.2em;
+	line-height: 1.3em;
 }
 
+#CVname
+{
+	line-height: 0.2em;
+}
 .center
 {
 	display: block;
@@ -267,14 +271,6 @@ ul
 	line-height: 3em;
 }
 
-#booklist
-{
-	line-height: 2em;
-}
-#interestlist
-{
-	line-height: 2em;
-}
 
 #Interesth1, #Readingh1
 {
@@ -316,6 +312,10 @@ section
 	border:none;
 	box-shadow: none;
 }
+
+#iddescription{
+	font-size: 1em;
+}
 #sectionpart{
 	float: none;
 	width: 100%;
@@ -326,6 +326,7 @@ section
 {
 	height: 165px;
 }
+
 
 
 progress[value] {
@@ -360,6 +361,10 @@ progress[value] {
 	margin-left: 10%;
 	padding: none;
 	max-width: 100%;
+}
+
+#iddescription{
+	font-size: 1em;
 }
 #sectionpart{
 	float: none;
