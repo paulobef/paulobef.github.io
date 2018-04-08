@@ -79,7 +79,7 @@ progress[value] {
   width: 33%;
   float: right;
   margin-right: 10%;
-  margin-top: 1.1em;
+  margin-top: 0.53em;
 }
 
 progress[value]::-webkit-progress-bar {
@@ -92,30 +92,30 @@ progress[value]::-webkit-progress-value {
   background-image:
 	   -webkit-linear-gradient(top, 
 	                           rgba(255, 255, 255, .125), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #1E9CFC, #FF3730);
+	                           rgba(0, 0, 0, .15)),
+	   -webkit-linear-gradient(left, #EF2D56, #EF2D56);
 
     border-radius: 20px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 .avancement1[value]::-webkit-progress-value {
-  background-image:
+ background-image:
 	   -webkit-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #41E2CD, #4C0099);
+	                           rgba(255, 255, 255, .125), 
+	                           rgba(0, 0, 0, .15)),
+	   -webkit-linear-gradient(left, #18BBF2, #18BBF2);
 
     border-radius: 20px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 .avancement3[value]::-webkit-progress-value {
-  background-image:
+ background-image:
 	   -webkit-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #4BD5EA, #FF236C);
+	                           rgba(255, 255, 255, .125), 
+	                           rgba(0, 0, 0, .15)),
+	   -webkit-linear-gradient(left, #06D6A0, #06D6A0);
 
     border-radius: 20px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
@@ -241,7 +241,8 @@ progress[value]::-webkit-progress-value {
 
 #sectionpart header
 {
-	background-image: url("colortag.jpg");
+	background-image: url("wallcolor.jpg");
+	background-position: center;
 	background-size: 100%;
 	height: 360px;
 }
@@ -301,12 +302,12 @@ section
 	margin: auto;
 	margin-top: 2em;
 	padding: 10px;
-	border-style: solid;
+	border-style: none;
 	border-radius: 5px;
-	border-color: #EE6C4D;
+	border-color: #31E981;
 	border-width: 0.5px;
 	
-	background-color: #EE6C4D;
+	background-color: #72F9AD;
 }
 
 .button:hover{
@@ -321,7 +322,7 @@ section
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 0.9em;
-	color: white;
+	color: #12552F;
 
 }
 
@@ -391,7 +392,7 @@ progress[value] {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	background-image: url("colortag.jpg");
+	background-image: url("wallcolor.jpg");
 	background-position: center;
 	background-size: 170%;
 	
