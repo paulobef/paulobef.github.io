@@ -475,6 +475,7 @@ footer .buttonwrapper {
 footer p{
 	padding-right: 1em;
 	padding-left: 1em;
+	font-size: 1em;
 }
 }
 
@@ -558,5 +559,8 @@ footer {
 
 footer .buttonwrapper {
 	width: 90%;
+}
+footer p{
+	font-size: 1em;
 }
 }
