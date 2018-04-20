@@ -468,6 +468,14 @@ footer {
 	margin-bottom: none;
 }
 
+#thegreenbutton div{
+	background-color: #474746;
+	color: #E8E8E7;
+}
+#thegreenbutton div a{
+	color: #E8E8E7;
+}
+
 footer .buttonwrapper {
 	width: 90%;
 }
@@ -478,6 +486,7 @@ footer p{
 	font-size: 1em;
 }
 }
+
 
 
 
@@ -555,6 +564,13 @@ footer {
 	display: flex;
 	margin-top: 1em;
 	margin-bottom: none;
+
+}
+#thegreenbutton div{
+	background-color: #474746;
+}
+#thegreenbutton div a{
+	color: #E8E8E7;
 }
 
 footer .buttonwrapper {
