@@ -15,18 +15,30 @@ footer {
 	bottom: 0; 
 	background-color: #313B42;
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	margin: 0;margin-left: 0;margin-right: 0;
 }
+
 
 footer p
 {
 	color: grey;
 	font-size: 0.85em;
 	text-align: center;
-	margin-top: 32px;
+	margin-top: 2em;
 }
 
+#made
+{
+	margin-top: 1em;
+	color: #08D9D6;
+}
+
+#made img
+{
+	height: 0.8em;
+	padding-left: 0.2em;
+}
 h1
 {
 	font-family: 'Playfair Display', serif;
@@ -197,6 +209,7 @@ progress[value]::-webkit-progress-value {
 	max-width: 30%;
 	position: sticky; top: 35px;
 	z-index: 2;
+	margin-bottom: 50px;
 }
 
 #idblock h1
@@ -387,6 +400,7 @@ section
 	display: none;
 }
 
+
 .skills h2{
 	margin-top: 2em;
 }
@@ -458,12 +472,13 @@ footer {
 	bottom: 0; 
 	background-color: #313B42;
 	width: 100%;
-	height: 150px;
+	height: 180px;
 	margin: 0;margin-left: 0;margin-right: 0;
 }
 
 #thegreenbutton{
 	display: flex;
+	flex-direction: column;
 	margin-top: 1em;
 	margin-bottom: none;
 }
@@ -556,7 +571,7 @@ footer {
 	bottom: 0; 
 	background-color: #313B42;
 	width: 100%;
-	height: 130px;
+	height: 150px;
 	margin: 0;margin-left: 0;margin-right: 0;
 }
 
